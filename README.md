@@ -19,3 +19,14 @@ Two complementary sensory modalities are provided:
 
 - Rodent whisker deflection (biomechanical simulation–driven input)
 - Human fingertip skin displacement (recorded vibrometry data)
+
+# Analysis Pipeline
+
+For each sensory modality and network layer, the repository provides tools to:
+
+- Quantify mutual information between stimuli and neural responses
+- Measure redundancy and decorrelation via pairwise spike-count correlations
+- Evaluate stimulus decodability using linear, Bayesian, and neural-network decoders
+- Compare single-neuron vs population-level representations
+
+The analysis framework is model-agnostic and can be reused for other neuromorphic or spike-based sensory systems.

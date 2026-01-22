@@ -1,10 +1,10 @@
-#Stimulus Representation in the Ascending Tactile Pathway
+# Stimulus Representation in the Ascending Tactile Pathway
 
 This repository contains an end-to-end, event-driven spiking neural network (SNN) model of the ascending tactile pathway, from mechanoreceptors in the periphery to cortical layers, together with analysis tools to quantify information transfer and representational efficiency across stages.
 
 The code accompanies the methods paper “From Skin to Cortex: End-to-End Spiking Neural Network Simulation of Tactile Information Flow” and is designed as a reproducible reference pipeline for neuromorphic tactile processing.
 
-#Overview
+# Overview
 
 The model implements a biologically grounded, feed-forward architecture comprising:
 
